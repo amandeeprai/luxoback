@@ -1,0 +1,24 @@
+{
+    "appConfig": {
+        "hostConfig": {
+            "port": 5000
+        },
+        "dbConfig": {
+            "url": "mongodb://localhost/luxocabs"
+        },
+        "stripeConfig": {
+            "stripeKey": "sk_test_3S3SSfn0ZeNnqIsjCk14Fkhk"
+        },
+        "mailConfig": {
+            "host": "smtp.gmail.com",
+            "port": 465,
+            "secure": true,
+            "username": "icruisecoder007@gmail.com",
+            "password": "cruise@123"
+        },
+        "firebaseConfig": {
+            "dburl": "https://luxo-cabs-01.firebaseio.com",
+            "serviceAccountJsonFilePath": "luxo-cabs-01-firebase-adminsdk-xe97w-bcccf551bb.json"
+        }
+    }
+}
